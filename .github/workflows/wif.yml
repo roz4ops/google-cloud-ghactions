@@ -2,7 +2,7 @@ name: Get storages buckets
 on: 
   workflow_dispatch
 jobs:
-  get-secret:
+  get-buckets:
     runs-on: ubuntu-latest
     environment: qa
     # Add "id-token" with the intended permissions.
